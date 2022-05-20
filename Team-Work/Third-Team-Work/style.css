@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.head{
+    padding: 15px 15px 0px 15px;
+}
+.leftside{
+    float: left;
+    margin-top: 5px;
+}
+.rightside{
+    float: right;
+}
+.land{
+    clear: both;
+}
+ul{
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+}
+ul a{
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+    pad: 0.5rem;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+.dott{
+    vertical-align: middle;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.dott:hover{
+    opacity: 1;
+}
+.sign{
+    background-color: #4285F4;
+    border: none;
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.mainlogo{
+    width: 280px;
+    height: 100px;
+    margin: 200px auto 0px;
+    display: block;
+}
+.search{
+    width: 450px;
+    height: 40px;
+    border: 1px solid d3d3d;
+    border-radius: 25px;
+    margin: 30px auto;
+}
+.search:hover{
+    box-shadow: rgb(211, 211, 211);
+}
+.magni{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.searchbar{
+    width: 380px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.microphone{
+    width: 15px;
+    height: 20px;
+    vertical-align: middle;
+}
+.button{
+    text-align: center;
+}
+.lbutton,
+.rbutton{
+    height: 35px;
+    border: 1px solid #EFEFEF ;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    padding: 1px 5px;
+    margin: 8px 5px;
+}
+.lbutton:hover,
+.rbutton:hover{
+    border: 1px #D3D3D3;
+    cursor: pointer;
+}
+
+.en {
+    text-align: center;
+    
+}
+.lower{
+    position: fixed;
+    bottom: 0px;
+    background-color: #F2F2F2;
+    line-height: 40px;
+    width: 100%;
+    color: gray;
+}
+.tr{
+    padding-left: 20px;
+}
+.deep{
+    border-top: 1px solid #e4e4e4;
+}
+.deepleft{
+    float: left;
+    padding: 15px;
+}
+.deepright{
+    float: right;
+}
